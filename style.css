@@ -1,0 +1,50 @@
+.order{
+    background-color: white ;
+    width: 656px;
+    height: 250px;
+    padding: 24px;
+    border-radius: 10px;
+}
+.input-group{
+    width: 100%;
+}
+
+.background{
+    background-image: url(Group\ 1\ 1.png);
+}
+.days{
+    border: 1px solid rgba(241, 114, 40, 0.2);
+    padding: 5px 5px;
+    width: 75%;
+    background-color:rgba(241, 114, 40, 0.2) ;
+}
+@media screen and (max-width: 1201px) {
+    .one {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .first{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+
+    }
+    .order{
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .center{
+        text-align: center;
+    }
+    .bowl{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .days{
+        text-align: center;
+    }
+
+
+}
